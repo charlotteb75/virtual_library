@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+
+  .book-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Largeur fixe pour éviter qu'elles ne soient trop larges */
+    height: 300px; /* Ajuste la hauteur pour rendre les cartes plus carrées */
+    overflow: hidden;
+
+  }
+  
+  .book-image {
+    width: 100%;
+    height: auto;
+    max-height: 62%; /* Limite la hauteur de l'image */
+    object-fit: cover; /* S'assure que l'image ne déforme pas la carte */
+    margin: 0;
+    padding: 0;
+  }
+
+    /* Titre du livre */
+    .book-title {
+      font-family:   'Montserrat', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 2px;
+      margin-top: 10px;
+      color: #111;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+
+
+  .book-text {
+    font-family:   'Montserrat', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 0.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+  }
+  
+
+  
+  .book-tags{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 6px;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+  }
+  
+  
+  
+  .book-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+  
+ 

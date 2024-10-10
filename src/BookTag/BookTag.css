@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+  
+  .book-tag{
+    display: inline-block;
+    font-family:   'Montserrat', sans-serif;
+    background-color: #F0F4FF;
+    color: #333;
+    padding: 2px 6px;
+    border: 1px solid #aacbff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    font-size: 0.5em;
+    font-weight: bold;
+  }
+
+
+  /*.book-tag:hover{
+    background-color: #aacbff;
+    color: #fff;
+  }*/

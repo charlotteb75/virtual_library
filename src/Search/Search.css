@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+/* Sidebar pour les filtres */
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  background-color: #fff;
+  margin-top: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+form  {
+	margin-right: 5px;
+	width: 350%;
+}
+
+input {
+  font-family:   'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+select {
+  font-family:   'Montserrat', sans-serif;
+  color: rgb(16, 15, 15);
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
